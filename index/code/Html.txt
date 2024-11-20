@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfilo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="top">
+            <div class="logo">Portfilo</div>
+            <i class="fa-solid fa-bars toogle"></i>
+
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="#hom">Home</a>
+                    </li>
+                    <li>
+                        <a href="#abo">About</a>
+                    </li>
+                    <li>
+                        <a href="#ser">Services</a>
+                    </li>
+                    <li>
+                        <a href="#pro">Project</a>
+                    </li>
+                    <li>
+                        <a href="#ski">skills</a>
+                    </li>
+                    <li>
+                        <a href="#con">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+        <div class="landing" id="hom">
+            <div class="row m-1 align-items-center  ">
+                <div class="col-md-6 col-lg-6">
+                    <div class="text">
+                        <h2>Hello Its,Me</h2>
+                        <h1>Havindu Hemal</h1>
+                        <div class="continer"></div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis facilis quia, impedit iure consequatur voluptatibus sapiente! Minima accusantium optio nostrum tempore, eligendi laborum molestias ullam, repellendus totam quod
+                            a non eos assumenda, ad voluptates sint aperiam? Qui dolorem tempore vero?</p>
+                        <div class="links">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-6 ">
+                    <div class="image ">
+                        <img src="images/home.png" class="w-100" alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="abo">
+            <div class="row m-1  align-items-center  ">
+                <div class="col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="images/about.png" class="w-100 rounded" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="text">
+                        <h2>About <span>Me</span></h2>
+                        <h4>Front-End-Developer</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe eveniet molestias quis sunt omnis nulla deserunt cumque earum ad, dolor blanditiis rerum magni provident neque atque. Porro fugit molestiae aperiam enim quo harum,
+                            maxime sed tenetur quaerat. Nemo nulla doloribus, accusamus, minus tempore ratione magnam voluptates, esse rem iste voluptate et porro molestias dicta provident enim labore quis ipsam itaque id eaque eos sint! Officiis praesentium
+                            recusandae cumque officia, alias illum inventore corporis aspernatur minima, voluptate dolores porro odit sapiente id fuga accusantium vero ex a aliquam libero dolorem quidem dolorum repudiandae saepe. Fugit veniam voluptatum
+                            architecto dolore ipsam velit.</p>
+                        <button>More About Us</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="serives" id="ser">
+            <div class="continer  text-center ">
+                <h2>My <span>serivices</span></h2>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <i class="fa-solid fa-pencil" style="font-size: 30px;"></i>
+                                <h5 class="card-title">Ui & Ux Design</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <i class="fa-solid fa-laptop" style="font-size: 30px;"></i>
+                                <h5 class="card-title">Web Developer</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <i class="fa-solid fa-r" style="font-size: 30px;"></i>
+                                <h5 class="card-title">Responsive Design</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <i class="fa-solid fa-lock" style="font-size: 30px;"></i>
+                                <h5 class="card-title">Office Security</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <i class="fa-solid fa-code" style="font-size: 30px;"></i>
+                                <h5 class="card-title">software Eng</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <div class="card-body">
+                                <i class="fa-solid fa-code-compare" style="font-size: 30px;"></i>
+                                <h5 class="card-title">Problem Solving </h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Read More</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="project" id="pro">
+            <div class="row">
+                <div class="continer  text-center ">
+                    <h2>My<span>Projects</span></h2>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="image">
+                                <img src="images/portfolio1.jpg" class="w-100 rounded" alt="">
+                                <div class="text">
+                                    <h4>Ui Ux Design</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minima consequuntur sint officia laudantium qui recusandae et earum, amet at molestias sit officiis porro eum iure voluptas a, accusamus dolor voluptatum
+                                        quasi exercitationem illo quo quia. Soluta, asperiores odio? Reiciendis dolores ut veritatis eum similique rem dignissimos, beatae mollitia, ipsa laborum tempore amet laboriosam voluptates vitae aliquam magnam ad
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="image">
+                                <img src="images/portfolio2.jpg" class="w-100 rounded" alt="">
+                                <div class="text">
+                                    <h4>Web Designer</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minima consequuntur sint officia laudantium qui recusandae et earum, amet at molestias sit officiis porro eum iure voluptas a, accusamus dolor voluptatum
+                                        quasi exercitationem illo quo quia. Soluta, asperiores odio? Reiciendis dolores ut veritatis eum similique rem dignissimos, beatae mollitia, ipsa laborum tempore amet laboriosam voluptates vitae aliquam magnam ad
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="image">
+                                <img src="images/portfolio3.jpg" class="w-100 rounded" alt="">
+                                <div class="text">
+                                    <h4>Respnsive Design</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minima consequuntur sint officia laudantium qui recusandae et earum, amet at molestias sit officiis porro eum iure voluptas a, accusamus dolor voluptatum
+                                        quasi exercitationem illo quo quia. Soluta, asperiores odio? Reiciendis dolores ut veritatis eum similique rem dignissimos, beatae mollitia, ipsa laborum tempore amet laboriosam voluptates vitae aliquam magnam ad
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="image">
+                                <img src="images/portfolio4.jpg" class="w-100 rounded" alt="">
+                                <div class="text">
+                                    <h4>Testing</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minima consequuntur sint officia laudantium qui recusandae et earum, amet at molestias sit officiis porro eum iure voluptas a, accusamus dolor voluptatum
+                                        quasi exercitationem illo quo quia. Soluta, asperiores odio? Reiciendis dolores ut veritatis eum similique rem dignissimos, beatae mollitia, ipsa laborum tempore amet laboriosam voluptates vitae aliquam magnam ad
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="image">
+                                <img src="images/portfolio5.jpg" class="w-100 rounded" alt="">
+                                <div class="text">
+                                    <h4>Problem Solving</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minima consequuntur sint officia laudantium qui recusandae et earum, amet at molestias sit officiis porro eum iure voluptas a, accusamus dolor voluptatum
+                                        quasi exercitationem illo quo quia. Soluta, asperiores odio? Reiciendis dolores ut veritatis eum similique rem dignissimos, beatae mollitia, ipsa laborum tempore amet laboriosam voluptates vitae aliquam magnam ad
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="image">
+                                <img src="images/portfolio6.jpg" class="w-100 rounded" alt="">
+                                <div class="text">
+                                    <h4>Command Line</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minima consequuntur sint officia laudantium qui recusandae et earum, amet at molestias sit officiis porro eum iure voluptas a, accusamus dolor voluptatum
+                                        quasi exercitationem illo quo quia. Soluta, asperiores odio? Reiciendis dolores ut veritatis eum similique rem dignissimos, beatae mollitia, ipsa laborum tempore amet laboriosam voluptates vitae aliquam magnam ad
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills" id="ski">
+            <div class="continer  text-center ">
+                <h2>My<span>Skills</span></h2>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="info  d-flex  justify-content-between  ">
+                            <h4>Html</h4>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress">
+                            <span style="width: 0;" data-goal="100%"></span>
+                        </div>
+                        <div class="info  d-flex  justify-content-between  ">
+                            <h4>css</h4>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <span style="width: 0;" data-goal="80%"></span>
+                        </div>
+                        <div class="info  d-flex  justify-content-between  ">
+                            <h4>Java Script</h4>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress">
+                            <span style="width: 0;" data-goal="90%"></span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="info  d-flex  justify-content-between  ">
+                            <h4>Tilwand</h4>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <span style="width: 0;" data-goal="70%"></span>
+                        </div>
+                        <div class="info  d-flex  justify-content-between  ">
+                            <h4>Boostrap</h4>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <span style="width: 0;" data-goal="80%"></span>
+                        </div>
+                        <div class="info  d-flex  justify-content-between  ">
+                            <h4>Github</h4>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress">
+                            <span style="width: 0;" data-goal="100%"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="con">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-6">
+                    <div class="continer   ">
+                        <h4 class="text-center">Contact <span>Me</span></h4>
+                        <h5>Lets Work Together</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ducimus blanditiis consequuntur cum soluta necessitatibus quos adipisci magnam non illum?</p>
+                        <div class="info">
+                            <h5>
+                                <i class="fa-solid fa-envelopes-bulk"></i>info@gmail.com</h5>
+                            <h5><i class=" fa-solid fa-phone "></i>0123456789</h5>
+                            <h5> <i class="fa-solid fa-house "></i>Street-101-London</h5>
+                            <h5><i class="fa-solid fa-car-on "></i>Engernecy-187</h5>
+
+                        </div>
+                        <div class="links">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fa-brands fa-twitter"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-6 ">
+                    <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                            <label for="Name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="email" placeholder="Enter Name" name="email">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-check mb-3">
+                            <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <div class="up">Up</div>
+            <hr>
+            <p>Powerd By <a href="#">theroZeme</a></p>
+            <p>By Omar Rehan</p>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous "></script>
+    <script src="mian.js "></script>
+
+</body>
+
+</html>
